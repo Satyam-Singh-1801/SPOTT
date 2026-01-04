@@ -31,6 +31,7 @@ export default function UpgradeModal({ isOpen, onClose, trigger = "limit" }) {
         {/* Pricing Cards */}
         <PricingTable
           checkoutProps={{
+
             appearance: {
               elements: {
                 drawerRoot: {
