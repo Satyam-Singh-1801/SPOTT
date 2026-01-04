@@ -45,7 +45,7 @@ export default function OnboardingModal({ isOpen, onClose, onComplete }) {
   }, []);
 
   // Get cities based on selected state
-  const cities = useMemo(() => {
+  const cities = useMemo( () => {
     if (!location.state) return [];
     const selectedState = indianStates.find((s) => s.name === location.state);
     if (!selectedState) return [];
