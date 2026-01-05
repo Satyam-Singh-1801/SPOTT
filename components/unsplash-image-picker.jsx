@@ -65,7 +65,7 @@ export default function UnsplashImagePicker({ isOpen, onClose, onSelect }) {
             <div className="flex items-center justify-center h-64">
               <Loader2 className="w-8 h-8 animate-spin text-purple-500" />
             </div>
-          ) : (
+          ) :  (
             <div className="grid grid-cols-3 gap-4 py-4">
               {images.map((image) => (
                 <button
