@@ -36,7 +36,7 @@ export const createEvent = mutation({
         );
       }
 
-      // SERVER-SIDE CHECK: Verify custom color usage
+      // SERVER-SIDE CHECK: Verify color usage
       const defaultColor = "#1e3a8a";
       if (!hasPro && args.themeColor && args.themeColor !== defaultColor) {
         throw new Error(
