@@ -32,7 +32,7 @@ export default function LandingPage() {
             </p>
 
             <Link href="/explore">
-              <Button size="xl" className={"rounded-full "}>
+              <Button size="xl" className={"rounded-full"}>
                 Get Started
               </Button >
             </Link>
