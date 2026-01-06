@@ -13,7 +13,7 @@ export default function LandingPage() {
           <div className="text-center sm:text-left">
             <div className="mb-6">
               <span className="text-gray-500 font-light tracking-wide">
-                spott<span className="text-purple-400">*</span>
+                Spott<span className="text-purple-400">*</span>
               </span>
             </div>
 
@@ -32,7 +32,7 @@ export default function LandingPage() {
             </p>
 
             <Link href="/explore">
-              <Button size="xl" className={"rounded-full"}>
+              <Button size="xl" className={"rounded-full m-1"}>
                 Get Started
               </Button >
             </Link>

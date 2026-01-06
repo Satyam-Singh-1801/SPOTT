@@ -42,10 +42,10 @@ export default function RootLayout({ children }) {
 
                   <div className="relative z-10 min-h-[70vh]">{children}</div>
                   
-                  {/* footer */}
-                  <footer className="border-t border-gray-800/50 py-8 px-6 max-w-7xl mx-auto">
+                  
+                  {/* <footer className="border-t border-gray-800/50 py-8 px-6 max-w-7xl mx-auto">
                     <div className="text-sm text-gray-400">Made with ❤️ by Satyam Singh </div>
-                  </footer>
+                  </footer> */}
                   <Toaster richColors />
                 </main>
               </ConvexClientProvider>
